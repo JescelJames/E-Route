@@ -1,0 +1,32 @@
+{
+  "4df5caf6-7584-4c01-aa66-786ff4b503db": {
+    "appActions": [
+      "providers/PowerPlatform.Governance/Operations/Read",
+      "providers/PowerPlatform.Governance/Operations/Write",
+      "providers/PowerPlatform.Governance/Operations/Delete"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1693/1.0.1693.3738/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://0zt31.sharepoint.com/sites/CarRentalsApproval": {
+        "dataSources": {
+          "E-Route": {
+            "tableName": "e86bbad5-21ee-43a1-a7e9-fdfc6cab7a88"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "E-Route"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "4df5caf6-7584-4c01-aa66-786ff4b503db"
+  }
+}
